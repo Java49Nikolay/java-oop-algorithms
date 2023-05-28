@@ -14,7 +14,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import telran.util.Collection;
-import telran.util.List;
 
 public abstract class CollectionTest {
 //TODO move tests of interface collection methods (5 methods) from ListTest
