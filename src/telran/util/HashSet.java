@@ -28,7 +28,8 @@ public class HashSet<T> implements Set<T> {
 		private int getCurrentIteratorIndex(int currentIndex) {
 			currentIndex++;
 			while(currentIndex < hashTable.length && 
-					(hashTable[currentIndex] == null || hashTable[currentIndex].size() == 0)) {
+					(hashTable[currentIndex] == null || 
+					hashTable[currentIndex].size() == 0)) {
 				currentIndex++;
 			}
 			return currentIndex < hashTable.length ? currentIndex : -1;
